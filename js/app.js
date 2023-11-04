@@ -19,7 +19,12 @@ addMe.addEventListener('click', () => {
     listButton.textContent = "Delete"
     userList.appendChild(list)
 
-    
+    listButton.addEventListener('click', () => {
+        userList.removeChild(list)
+    })
+    // delete button added
+
+    userInput.focus()
 })
 
 
