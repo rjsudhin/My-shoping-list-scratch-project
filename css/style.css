@@ -40,7 +40,9 @@ body {
 .input-screen {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: rgb(46, 161, 46);
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex: 2 1 200px;
 }
 
@@ -52,7 +54,7 @@ body {
     text-align: left;
     padding: 0 1em;
     font-size: 14px;
-    color: #fff;
+    color: rgb(95, 163, 95);
     width: 100%;
 }
 
@@ -65,8 +67,13 @@ body {
     padding: 5px;
     border-radius: 10px;
     border: none;
-    flex: 1 2 50px;
+    flex: 1 2 80px;
     align-self: flex-end;
     font-size: 15px;
     color: #fff;
+}
+
+.addMe:hover {
+    box-shadow: 0 0 9px 0 rgb(46, 161, 46);
+
 }
